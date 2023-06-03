@@ -1,0 +1,29 @@
+{
+  "name": "ts-bench",
+  "version": "0.1.0",
+  "description": "A collection of use cases with different strategies and performance comparison between them to find out the best and worst practices for a specific problem.",
+  "author": "ii887522",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts ./",
+    "format": "prettier --write \"**/*.{js,ts,md,json}\" --ignore-path .gitignore",
+    "check-fmt": "prettier --check \"**/*.{js,ts,md,json}\" --ignore-path .gitignore"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "benchmark": "^2.1.4",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.5.1",
+    "tsx": "^3.12.7",
+    "typescript": "^4.5.4"
+  }
+}
